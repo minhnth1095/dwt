@@ -40,6 +40,10 @@
         ORDER BY ACREATEDATE DESC
     </select>
 
+    <select id="getPaymentByRequestId" resultMap="paymentResultMap">
+        SELECT * FROM DWT.TDWT_PAYMENT
+        WHERE AREQUESTID = #{requestId}
+    </select>
     <insert id="insertPayment" statementType="CALLABLE" parameterType="com.fpts.fitint.dto.payment.PaymentAddParam">
     {
         call dwt.spdwt_payment_add(

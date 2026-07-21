@@ -10,5 +10,5 @@ import java.util.Map;
 public interface PaymentMapper {
     List<Payment> getPaymentsByClientCode(@Param("clientCode") String clientCode);
     void insertPayment(PaymentAddParam params);
-    Payment getPaymentById(@Param("paymentId") String paymentId);
+    Payment getPaymentByRequestId(@Param("requestId") String requestId);
 }

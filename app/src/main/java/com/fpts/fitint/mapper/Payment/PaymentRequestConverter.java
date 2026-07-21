@@ -15,22 +15,20 @@ public class PaymentRequestConverter {
         PaymentAddParam param = new PaymentAddParam();
         param.setPtransactionid(CommonUtils.randomStringId("NT"));
         param.setPbankgateway(request.getBankGateway());
-        param.setPtranref(request.getTranRef());
+        param.setPtranref(request.getTransRef());
         param.setPclientcode(request.getClientCode());
         param.setPclientname(request.getClientName());
-        param.setPcashamt(request.getAmount());
-        param.setPfptsacc(request.getFptsAcc());
+        param.setPcashamt(request.getCashAmount());
+        param.setPfptsacc(request.getFptsAccNum());
         param.setPbankcode(request.getBankCode());
-        param.setPbranch(request.getBranch());
         param.setPdescription(request.getDescription());
-        param.setPstatus(request.getStatus().getCode());
+        param.setPstatus(0);
         param.setPdomestic(request.getDomestic().getCode());
         param.setPcostcenter(request.getCostCenter().getCode());
         param.setPchannel(request.getChannel().getCode());
         param.setPtransdate(request.getTransDate());
         param.setPcreatedate(LocalDateTime.now());
-        param.setPcreateby(request.getCreateBy());
-        param.setPapproveby(request.getApproveBy());
+        param.setPcreateby(request.getCreatedBy());
         param.setPlongname(request.getLongName());
         param.setPrequestid(request.getRequestId());
         // các field default (-1, 0) đã set sẵn trong PaymentAddParam
