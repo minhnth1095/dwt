@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fpts.fitint.mapper.PaymentMapper">
+    <resultMap id="paymentResultMap" type="com.fpts.fitint.entity.payment.Payment">
+        <id property="transaction" column="ATRANSACTIONID"/>
+        <result property="bankGateway" column="ABANKGATEWAY"/>
+        <result property="transRef" column="ATRANSREF"/>
+        <result property="clientCode" column="ACLIENTCODE"/>
+        <result property="clientName" column="ACLIENTNAME"/>
+        <result property="cashAmount" column="ACASHAMOUNT"/>
+        <result property="fptsAccountNumber" column="AFPTSACCOUNTNUMBER"/>
+        <result property="bankCode" column="ABANKCODE"/>
+        <result property="branch" column="ABRANCH"/>
+        <result property="description" column="ADESCRIPTION"/>
+        <result property="status" column="ASTATUS" typeHandler="com.fpts.fitint.entity.enums.handler.StatusTypeHandler"/>
+        <result property="domestic" column="ADOMESTIC" typeHandler="com.fpts.fitint.entity.enums.handler.DomesticTypeHandler"/>
+        <result property="costCenter" column="ACOSTCENTER" typeHandler="com.fpts.fitint.entity.enums.handler.CostCenterTypeHandler"/>
+        <result property="channel" column="ACHANNEL" typeHandler="com.fpts.fitint.entity.enums.handler.ChannelTypeHandler"/>
+        <result property="transDate" column="ATRANSDATE"/>
+        <result property="createDate" column="ACREATEDATE"/>
+        <result property="createdBy" column="ACREATEBY"/>
+        <result property="approveDate" column="APPROVEDATE"/>
+        <result property="approveUser" column="APPROVEUSER"/>
+        <result property="impNova" column="AIMPNOVA"/>
+        <result property="impDate" column="AIMPDATE"/>
+        <result property="comment" column="ACOMMENT"/>
+        <result property="statusAcc" column="ASTATUSACC"/>
+        <result property="longName" column="ALONGNAME"/>
+        <result property="partition" column="APARTITION"/>
+        <result property="offSet" column="OFFSET"/>
+        <result property="requestId" column="AREQUESTID"/>
+        <result property="bankPartition" column="ABANKPARTITION"/>
+        <result property="cot" column="ACOT"/>
+    </resultMap>
+
+    <select id="getPaymentsByClientCode" resultMap="paymentResultMap">
+        SELECT * FROM DWT.TDWT_PAYMENT
+        WHERE ACLIENTCODE = #{clientCode}
+        ORDER BY ACREATEDATE DESC
+    </select>
+
+    <insert id="insertPayment" statementType="CALLABLE" parameterType="com.fpts.fitint.dto.payment.PaymentAddParam">
+    {
+        call dwt.spdwt_payment_add(
+            #{ptransactionid, mode=IN,  jdbcType=VARCHAR},
+            #{pbankgateway,   mode=IN,  jdbcType=VARCHAR},
+            #{ptranref,       mode=IN,  jdbcType=VARCHAR},
+            #{pclientcode,    mode=IN,  jdbcType=VARCHAR},
+            #{pclientname,    mode=IN,  jdbcType=VARCHAR},
+            #{pcashamt,       mode=IN,  jdbcType=NUMERIC},
+            #{pfptsacc,       mode=IN,  jdbcType=VARCHAR},
+            #{pbankcode,      mode=IN,  jdbcType=VARCHAR},
+            #{pbranch,        mode=IN,  jdbcType=VARCHAR},
+            #{pdescription,   mode=IN,  jdbcType=VARCHAR},
+            #{pstatus,        mode=IN,  jdbcType=NUMERIC},
+            #{pdomestic,      mode=IN,  jdbcType=NUMERIC},
+            #{pcostcenter,    mode=IN,  jdbcType=NUMERIC},
+            #{pchannel,       mode=IN,  jdbcType=NUMERIC},
+            #{ptransdate,     mode=IN,  jdbcType=DATE},
+            #{pcreatedate,    mode=IN,  jdbcType=DATE},
+            #{pcreateby,      mode=IN,  jdbcType=VARCHAR},
+            #{papproveby,     mode=IN,  jdbcType=VARCHAR},
+            #{plongname,      mode=IN,  jdbcType=VARCHAR},
+            #{pstatusacc,     mode=IN,  jdbcType=NUMERIC},
+            #{ppartition,     mode=IN,  jdbcType=NUMERIC},
+            #{poffset,        mode=IN,  jdbcType=NUMERIC},
+            #{prequestid,     mode=IN,  jdbcType=VARCHAR},
+            #{pbankpartition, mode=IN,  jdbcType=NUMERIC},
+            #{pbankoffset,    mode=IN,  jdbcType=NUMERIC},
+            #{pimportnova,    mode=IN,  jdbcType=NUMERIC},
+            #{pcot,           mode=IN,  jdbcType=NUMERIC},
+            #{preturncode,    mode=OUT, jdbcType=NUMERIC},
+            #{preturnMess,    mode=OUT, jdbcType=VARCHAR}
+        )
+    }
+    </insert>
+</mapper>
