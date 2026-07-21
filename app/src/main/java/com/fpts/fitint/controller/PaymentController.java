@@ -6,10 +6,10 @@ import com.fpts.fitint.mapper.PaymentMapper;
 import com.fpts.fitint.service.Payment.PaymentService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -38,9 +38,11 @@ public class PaymentController {
 //    }
 
     @Operation(summary = "Lấy giao dịch theo số tài khoản")
+    @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/account/{clientCode}")
     public  List<Payment> getPaymentsByClientCode(
-            @Parameter(description = "Số tài khảon") @PathVariable String clientCode) {
+            @Parameter(description = "Số tài khoản") @PathVariable String clientCode) {
+
         return paymentMapper.getPaymentsByClientCode(clientCode);
 
     }

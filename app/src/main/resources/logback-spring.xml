@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Tương đương AppName, BootstrapServers, Topic bên .NET -->
+    <springProperty scope="context" name="appName" source="kafka-logger.app-name" defaultValue="CashTrans-Dwt"/>
+    <springProperty scope="context" name="kafkaBootstrapServers" source="kafka-logger.bootstrap-servers" defaultValue="localhost:9092"/>
+    <springProperty scope="context" name="kafkaTopic" source="kafka-logger.topic" defaultValue="log-cashtrans-dwt"/>
+
+    <!-- Tương đương {hostName}, {iPv4s[0]} trong template .NET -->
+    <define name="HOSTNAME" class="com.fpts.fitint.logging.HostNamePropertyDefiner" />
+    <define name="HOST_IP" class="com.fpts.fitint.logging.HostIpPropertyDefiner" />
+
+    <property name="LOG_PATH" value="./logs" />
+
+    <!-- Console cho dev local -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File JSON local: lớp bảo hiểm phòng khi Kafka down -->
+    <appender name="FILE_JSON" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/${appName}.json</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_PATH}/${appName}.%d{yyyy-MM-dd}.%i.json</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>5GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <pattern>{"DateTime":"%d{dd-MM-yyyy HH:mm:ss.SSS}","Service":"${appName}","Host":"${HOSTNAME}","IP":"${HOST_IP}","Level":"%level","Logger":"%logger","Message":"%replace(%msg){'"','\\"'}"}%n</pattern>
+            </layout>
+        </encoder>
+    </appender>
+
+    <!-- Kafka appender: đúng topic, đúng format template -->
+    <appender name="KAFKA" class="com.github.danielwegener.logback.kafka.KafkaAppender">
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <pattern>{"DateTime":"%d{dd-MM-yyyy HH:mm:ss.SSS}","Service":"${appName}","Host":"${HOSTNAME}","IP":"${HOST_IP}","Level":"%level","Logger":"%logger","Message":"%replace(%msg){'"','\\"'}"}</pattern>
+            </layout>
+        </encoder>
+        <topic>${kafkaTopic}</topic>
+        <keyingStrategy class="com.github.danielwegener.logback.kafka.keying.NoKeyKeyingStrategy" />
+        <deliveryStrategy class="com.github.danielwegener.logback.kafka.delivery.AsynchronousDeliveryStrategy" />
+
+        <producerConfig>bootstrap.servers=${kafkaBootstrapServers}</producerConfig>
+        <producerConfig>acks=0</producerConfig>
+        <producerConfig>linger.ms=1000</producerConfig>
+        <producerConfig>max.block.ms=0</producerConfig>
+
+        <appendTimeout>0</appendTimeout>
+    </appender>
+
+    <appender name="ASYNC_KAFKA" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="KAFKA" />
+        <queueSize>1024</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+        <includeCallerData>false</includeCallerData>
+        <neverBlock>true</neverBlock>
+    </appender>
+
+    <logger name="com.fpts.fitint" level="DEBUG" />
+    <logger name="org.apache.kafka" level="WARN" />
+    <logger name="org.hibernate" level="WARN" />
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE_JSON" />
+        <appender-ref ref="ASYNC_KAFKA" />
+    </root>
+
+</configuration>

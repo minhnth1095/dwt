@@ -44,4 +44,22 @@ logging:
   level:
     root: INFO
     com.fpts.fitint: DEBUG
-
+    org.springframework: WARN
+    org.hibernate: WARN
+    org.apache: WARN
+    org.mybatis: WARN
+    com.zaxxer: WARN
+    org.springdoc: WARN
+external-services:
+  services:
+    ezopen:
+      base-url: http://ezopengtw-krx-uat.customer.fpts.com.vn:8086/api/v1/Ezopen
+      paths:
+        customer-info: /customerinfo-by-client?Custaccount={clientCode}
+kafka-logger:
+  app-name: CashTrans-Dwt-Demo
+  bootstrap-servers: 10.26.7.104:9092,10.26.7.105:9092,10.26.7.106:9092
+  topic: log-cashtrans-test
+jwt:
+  secret: AN5g1rvtr5ULJquliaAC2oDNQnor2R4BYOgTC00fmaC
+  expiration: 3600000
