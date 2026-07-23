@@ -1,0 +1,762 @@
+{"DateTime":"23-07-2026 09:29:58.422","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]","Message":"Initializing Spring DispatcherServlet 'dispatcherServlet'"}
+{"DateTime":"23-07-2026 09:29:59.054","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.web.servlet.DispatcherServlet","Message":"Initializing Servlet 'dispatcherServlet'"}
+{"DateTime":"23-07-2026 09:29:59.057","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.web.servlet.DispatcherServlet","Message":"Completed initialization in 2 ms"}
+{"DateTime":"23-07-2026 09:30:03.913","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springdoc.api.AbstractOpenApiResource","Message":"Init duration for springdoc-openapi is: 633 ms"}
+{"DateTime":"23-07-2026 10:31:05.544","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.GracefulShutdown","Message":"Commencing graceful shutdown. Waiting for active requests to complete"}
+{"DateTime":"23-07-2026 10:31:05.561","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.GracefulShutdown","Message":"Graceful shutdown complete"}
+{"DateTime":"23-07-2026 10:31:05.580","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 10:31:05.595","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown initiated..."}
+{"DateTime":"23-07-2026 10:31:05.600","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown completed."}
+{"DateTime":"23-07-2026 11:32:21.705","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 28248 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 11:32:21.707","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 11:32:21.708","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 11:32:21.764","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.restart.ChangeableUrls","Message":"The Class-Path manifest attribute in C:\Users\minhnth\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.3.0.23.09\ojdbc11-23.3.0.23.09.jar referenced one or more files that do not exist: file:/C:/Users/minhnth/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.3.0.23.09/oraclepki.jar"}
+{"DateTime":"23-07-2026 11:32:21.765","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}
+{"DateTime":"23-07-2026 11:32:21.765","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}
+{"DateTime":"23-07-2026 11:32:22.669","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 11:32:22.671","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JDBC repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 11:32:22.693","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces."}
+{"DateTime":"23-07-2026 11:32:22.704","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 11:32:22.705","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 11:32:22.717","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces."}
+{"DateTime":"23-07-2026 11:32:22.824","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.mybatis.spring.mapper.ClassPathMapperScanner","Message":"No MyBatis mapper was found in '[com.fpts.fitint]' package. Please check your configuration."}
+{"DateTime":"23-07-2026 11:32:23.355","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.TomcatWebServer","Message":"Tomcat initialized with port 8080 (http)"}
+{"DateTime":"23-07-2026 11:32:23.370","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.coyote.http11.Http11NioProtocol","Message":"Initializing ProtocolHandler [\"http-nio-8080\"]"}
+{"DateTime":"23-07-2026 11:32:23.371","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardService","Message":"Starting service [Tomcat]"}
+{"DateTime":"23-07-2026 11:32:23.372","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardEngine","Message":"Starting Servlet engine: [Apache Tomcat/11.0.22]"}
+{"DateTime":"23-07-2026 11:32:23.433","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","Message":"Root WebApplicationContext: initialization completed in 1667 ms"}
+{"DateTime":"23-07-2026 11:32:24.272","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","Message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}
+{"DateTime":"23-07-2026 11:32:24.309","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Starting..."}
+{"DateTime":"23-07-2026 11:32:24.312","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 11:32:24.668","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.pool.HikariPool","Message":"HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6c40b281"}
+{"DateTime":"23-07-2026 11:32:24.670","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Start completed."}
+{"DateTime":"23-07-2026 11:32:24.903","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 11:32:24.925","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 11:32:25.357","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 11:32:25.657","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext","Message":"Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController' defined in file [E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes\com\fpts\fitint\controller\PaymentController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.fpts.fitint.mapper.PaymentMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}"}
+{"DateTime":"23-07-2026 11:32:25.657","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 11:32:25.666","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown initiated..."}
+{"DateTime":"23-07-2026 11:32:25.674","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown completed."}
+{"DateTime":"23-07-2026 11:32:25.680","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardService","Message":"Stopping service [Tomcat]"}
+{"DateTime":"23-07-2026 11:32:25.699","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger","Message":"
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled."}
+{"DateTime":"23-07-2026 11:32:25.770","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"ERROR","Logger":"org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter","Message":"
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.fpts.fitint.controller.PaymentController required a bean of type 'com.fpts.fitint.mapper.PaymentMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.fpts.fitint.mapper.PaymentMapper' in your configuration.
+"}
+{"DateTime":"23-07-2026 11:33:29.038","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 40584 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 11:33:29.041","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 11:33:29.041","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 11:33:29.086","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.restart.ChangeableUrls","Message":"The Class-Path manifest attribute in C:\Users\minhnth\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.3.0.23.09\ojdbc11-23.3.0.23.09.jar referenced one or more files that do not exist: file:/C:/Users/minhnth/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.3.0.23.09/oraclepki.jar"}
+{"DateTime":"23-07-2026 11:33:29.086","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}
+{"DateTime":"23-07-2026 11:33:29.087","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}
+{"DateTime":"23-07-2026 11:33:29.760","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 11:33:29.761","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JDBC repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 11:33:29.780","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces."}
+{"DateTime":"23-07-2026 11:33:29.789","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 11:33:29.790","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 11:33:29.802","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces."}
+{"DateTime":"23-07-2026 11:33:29.887","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.mybatis.spring.mapper.ClassPathMapperScanner","Message":"No MyBatis mapper was found in '[com.fpts.fitint]' package. Please check your configuration."}
+{"DateTime":"23-07-2026 11:33:30.304","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.TomcatWebServer","Message":"Tomcat initialized with port 8080 (http)"}
+{"DateTime":"23-07-2026 11:33:30.314","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.coyote.http11.Http11NioProtocol","Message":"Initializing ProtocolHandler [\"http-nio-8080\"]"}
+{"DateTime":"23-07-2026 11:33:30.315","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardService","Message":"Starting service [Tomcat]"}
+{"DateTime":"23-07-2026 11:33:30.315","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardEngine","Message":"Starting Servlet engine: [Apache Tomcat/11.0.22]"}
+{"DateTime":"23-07-2026 11:33:30.362","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","Message":"Root WebApplicationContext: initialization completed in 1275 ms"}
+{"DateTime":"23-07-2026 11:33:31.024","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","Message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}
+{"DateTime":"23-07-2026 11:33:31.052","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Starting..."}
+{"DateTime":"23-07-2026 11:33:31.055","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 11:33:31.328","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.pool.HikariPool","Message":"HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@232f07c"}
+{"DateTime":"23-07-2026 11:33:31.330","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Start completed."}
+{"DateTime":"23-07-2026 11:33:31.519","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 11:33:31.540","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 11:33:31.904","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 11:33:32.106","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext","Message":"Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController' defined in file [E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes\com\fpts\fitint\controller\PaymentController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.fpts.fitint.mapper.PaymentMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}"}
+{"DateTime":"23-07-2026 11:33:32.106","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 11:33:32.115","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown initiated..."}
+{"DateTime":"23-07-2026 11:33:32.123","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown completed."}
+{"DateTime":"23-07-2026 11:33:32.127","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardService","Message":"Stopping service [Tomcat]"}
+{"DateTime":"23-07-2026 11:33:32.145","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger","Message":"
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled."}
+{"DateTime":"23-07-2026 11:33:32.176","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"ERROR","Logger":"org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter","Message":"
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.fpts.fitint.controller.PaymentController required a bean of type 'com.fpts.fitint.mapper.PaymentMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.fpts.fitint.mapper.PaymentMapper' in your configuration.
+"}
+{"DateTime":"23-07-2026 11:34:10.367","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 20196 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 11:34:10.368","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 11:34:10.370","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 11:34:10.417","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.restart.ChangeableUrls","Message":"The Class-Path manifest attribute in C:\Users\minhnth\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.3.0.23.09\ojdbc11-23.3.0.23.09.jar referenced one or more files that do not exist: file:/C:/Users/minhnth/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.3.0.23.09/oraclepki.jar"}
+{"DateTime":"23-07-2026 11:34:10.418","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}
+{"DateTime":"23-07-2026 11:34:10.418","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}
+{"DateTime":"23-07-2026 11:34:11.089","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 11:34:11.091","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JDBC repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 11:34:11.116","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces."}
+{"DateTime":"23-07-2026 11:34:11.126","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 11:34:11.126","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 11:34:11.140","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces."}
+{"DateTime":"23-07-2026 11:34:11.615","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.TomcatWebServer","Message":"Tomcat initialized with port 8080 (http)"}
+{"DateTime":"23-07-2026 11:34:11.624","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.coyote.http11.Http11NioProtocol","Message":"Initializing ProtocolHandler [\"http-nio-8080\"]"}
+{"DateTime":"23-07-2026 11:34:11.625","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardService","Message":"Starting service [Tomcat]"}
+{"DateTime":"23-07-2026 11:34:11.625","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardEngine","Message":"Starting Servlet engine: [Apache Tomcat/11.0.22]"}
+{"DateTime":"23-07-2026 11:34:11.667","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","Message":"Root WebApplicationContext: initialization completed in 1248 ms"}
+{"DateTime":"23-07-2026 11:34:12.315","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","Message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}
+{"DateTime":"23-07-2026 11:34:12.345","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Starting..."}
+{"DateTime":"23-07-2026 11:34:12.349","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 11:34:12.621","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.pool.HikariPool","Message":"HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@347edfa8"}
+{"DateTime":"23-07-2026 11:34:12.623","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Start completed."}
+{"DateTime":"23-07-2026 11:34:12.804","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 11:34:12.828","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 11:34:13.205","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 11:34:13.891","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 11:34:13.991","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean","Message":"Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath."}
+{"DateTime":"23-07-2026 11:34:14.813","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.coyote.http11.Http11NioProtocol","Message":"Starting ProtocolHandler [\"http-nio-8080\"]"}
+{"DateTime":"23-07-2026 11:34:14.836","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.TomcatWebServer","Message":"Tomcat started on port 8080 (http) with context path '/'"}
+{"DateTime":"23-07-2026 11:34:14.847","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 5.039 seconds (process running for 5.735)"}
+{"DateTime":"23-07-2026 11:34:22.384","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.GracefulShutdown","Message":"Commencing graceful shutdown. Waiting for active requests to complete"}
+{"DateTime":"23-07-2026 11:34:22.390","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.GracefulShutdown","Message":"Graceful shutdown complete"}
+{"DateTime":"23-07-2026 11:34:22.398","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 11:34:22.400","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown initiated..."}
+{"DateTime":"23-07-2026 11:34:22.408","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown completed."}
+{"DateTime":"23-07-2026 12:20:08.905","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 22996 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 12:20:08.907","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 12:20:08.907","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 12:20:08.953","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.restart.ChangeableUrls","Message":"The Class-Path manifest attribute in C:\Users\minhnth\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.3.0.23.09\ojdbc11-23.3.0.23.09.jar referenced one or more files that do not exist: file:/C:/Users/minhnth/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.3.0.23.09/oraclepki.jar"}
+{"DateTime":"23-07-2026 12:20:08.953","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}
+{"DateTime":"23-07-2026 12:20:08.954","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}
+{"DateTime":"23-07-2026 12:20:09.814","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 12:20:09.816","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JDBC repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 12:20:09.837","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces."}
+{"DateTime":"23-07-2026 12:20:09.845","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 12:20:09.846","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 12:20:09.858","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces."}
+{"DateTime":"23-07-2026 12:20:10.352","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.TomcatWebServer","Message":"Tomcat initialized with port 8080 (http)"}
+{"DateTime":"23-07-2026 12:20:10.362","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.coyote.http11.Http11NioProtocol","Message":"Initializing ProtocolHandler [\"http-nio-8080\"]"}
+{"DateTime":"23-07-2026 12:20:10.363","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardService","Message":"Starting service [Tomcat]"}
+{"DateTime":"23-07-2026 12:20:10.363","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardEngine","Message":"Starting Servlet engine: [Apache Tomcat/11.0.22]"}
+{"DateTime":"23-07-2026 12:20:10.411","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","Message":"Root WebApplicationContext: initialization completed in 1457 ms"}
+{"DateTime":"23-07-2026 12:20:11.081","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","Message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}
+{"DateTime":"23-07-2026 12:20:11.113","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Starting..."}
+{"DateTime":"23-07-2026 12:20:11.117","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 12:20:11.414","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.pool.HikariPool","Message":"HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5da6c0ae"}
+{"DateTime":"23-07-2026 12:20:11.417","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Start completed."}
+{"DateTime":"23-07-2026 12:20:11.611","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 12:20:11.632","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 12:20:11.985","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 12:20:12.674","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 12:20:12.792","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean","Message":"Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath."}
+{"DateTime":"23-07-2026 12:20:13.657","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.coyote.http11.Http11NioProtocol","Message":"Starting ProtocolHandler [\"http-nio-8080\"]"}
+{"DateTime":"23-07-2026 12:20:13.676","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.TomcatWebServer","Message":"Tomcat started on port 8080 (http) with context path '/'"}
+{"DateTime":"23-07-2026 12:20:13.685","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 5.374 seconds (process running for 6.05)"}
+{"DateTime":"23-07-2026 13:52:15.476","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.GracefulShutdown","Message":"Commencing graceful shutdown. Waiting for active requests to complete"}
+{"DateTime":"23-07-2026 13:52:15.490","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.GracefulShutdown","Message":"Graceful shutdown complete"}
+{"DateTime":"23-07-2026 13:52:15.497","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 13:52:15.504","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown initiated..."}
+{"DateTime":"23-07-2026 13:52:15.532","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown completed."}
+{"DateTime":"23-07-2026 13:58:01.278","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 39208 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 13:58:01.279","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 13:58:01.280","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 13:58:01.321","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.restart.ChangeableUrls","Message":"The Class-Path manifest attribute in C:\Users\minhnth\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.3.0.23.09\ojdbc11-23.3.0.23.09.jar referenced one or more files that do not exist: file:/C:/Users/minhnth/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.3.0.23.09/oraclepki.jar"}
+{"DateTime":"23-07-2026 13:58:01.321","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}
+{"DateTime":"23-07-2026 13:58:01.322","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}
+{"DateTime":"23-07-2026 13:58:01.704","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.apache.kafka.clients.NetworkClient","Message":"[Producer clientId=producer-1] The metadata response from the cluster reported a recoverable issue with correlation id 1 : {log-cashtrans-test=UNKNOWN_TOPIC_OR_PARTITION}"}
+{"DateTime":"23-07-2026 13:58:01.986","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 13:58:01.987","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JDBC repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 13:58:02.004","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces."}
+{"DateTime":"23-07-2026 13:58:02.012","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 13:58:02.014","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 13:58:02.025","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces."}
+{"DateTime":"23-07-2026 13:58:02.459","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.TomcatWebServer","Message":"Tomcat initialized with port 8080 (http)"}
+{"DateTime":"23-07-2026 13:58:02.467","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.coyote.http11.Http11NioProtocol","Message":"Initializing ProtocolHandler [\"http-nio-8080\"]"}
+{"DateTime":"23-07-2026 13:58:02.470","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardService","Message":"Starting service [Tomcat]"}
+{"DateTime":"23-07-2026 13:58:02.470","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.StandardEngine","Message":"Starting Servlet engine: [Apache Tomcat/11.0.22]"}
+{"DateTime":"23-07-2026 13:58:02.509","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","Message":"Root WebApplicationContext: initialization completed in 1187 ms"}
+{"DateTime":"23-07-2026 13:58:03.087","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","Message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}
+{"DateTime":"23-07-2026 13:58:03.127","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Starting..."}
+{"DateTime":"23-07-2026 13:58:03.130","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 13:58:03.420","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.pool.HikariPool","Message":"HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2110d8c"}
+{"DateTime":"23-07-2026 13:58:03.421","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Start completed."}
+{"DateTime":"23-07-2026 13:58:03.589","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 13:58:03.612","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 13:58:03.955","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 13:58:04.282","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 13:58:04.313","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean","Message":"Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath."}
+{"DateTime":"23-07-2026 13:58:04.693","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.coyote.http11.Http11NioProtocol","Message":"Starting ProtocolHandler [\"http-nio-8080\"]"}
+{"DateTime":"23-07-2026 13:58:04.702","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.TomcatWebServer","Message":"Tomcat started on port 8080 (http) with context path '/'"}
+{"DateTime":"23-07-2026 13:58:04.706","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 3.885 seconds (process running for 4.419)"}
+{"DateTime":"23-07-2026 13:58:16.860","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]","Message":"Initializing Spring DispatcherServlet 'dispatcherServlet'"}
+{"DateTime":"23-07-2026 13:58:16.860","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.web.servlet.DispatcherServlet","Message":"Initializing Servlet 'dispatcherServlet'"}
+{"DateTime":"23-07-2026 13:58:16.861","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.web.servlet.DispatcherServlet","Message":"Completed initialization in 0 ms"}
+{"DateTime":"23-07-2026 13:58:17.446","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springdoc.api.AbstractOpenApiResource","Message":"Init duration for springdoc-openapi is: 204 ms"}
+{"DateTime":"23-07-2026 13:58:24.896","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==>  Preparing: SELECT * FROM DWT.TDWT_PAYMENT WHERE ACLIENTCODE = ? ORDER BY ACREATEDATE DESC"}
+{"DateTime":"23-07-2026 13:58:24.947","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==> Parameters: 058C101295(String)"}
+{"DateTime":"23-07-2026 13:58:25.904","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"<==      Total: 99"}
+{"DateTime":"23-07-2026 14:04:26.239","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.GracefulShutdown","Message":"Commencing graceful shutdown. Waiting for active requests to complete"}
+{"DateTime":"23-07-2026 14:04:26.244","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.GracefulShutdown","Message":"Graceful shutdown complete"}
+{"DateTime":"23-07-2026 14:04:26.248","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 14:04:26.250","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown initiated..."}
+{"DateTime":"23-07-2026 14:04:26.261","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.zaxxer.hikari.HikariDataSource","Message":"HikariPool-1 - Shutdown completed."}
+{"DateTime":"23-07-2026 14:05:31.551","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 20372 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 14:05:31.553","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 14:05:31.554","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 14:05:31.598","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.restart.ChangeableUrls","Message":"The Class-Path manifest attribute in C:\Users\minhnth\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.3.0.23.09\ojdbc11-23.3.0.23.09.jar referenced one or more files that do not exist: file:/C:/Users/minhnth/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.3.0.23.09/oraclepki.jar"}
+{"DateTime":"23-07-2026 14:05:31.598","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}
+{"DateTime":"23-07-2026 14:05:31.598","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","Message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}
+{"DateTime":"23-07-2026 14:05:32.341","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 14:05:32.342","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JDBC repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 14:05:32.363","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces."}
+{"DateTime":"23-07-2026 14:05:32.373","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Multiple Spring Data modules found, entering strict repository configuration mode"}
+{"DateTime":"23-07-2026 14:05:32.374","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}
+{"DateTime":"23-07-2026 14:05:32.386","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","Message":"Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces."}
+{"DateTime":"23-07-2026 14:05:32.896","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.TomcatWebServer","Message":"Tomcat initialized with port 8080 (http)"}
+{"DateTime":"23-07-2026 14:05:32.953","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","Message":"Root WebApplicationContext: initialization completed in 1354 ms"}
+{"DateTime":"23-07-2026 14:05:33.653","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","Message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}
+{"DateTime":"23-07-2026 14:05:33.687","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 14:05:34.180","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 14:05:34.203","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 14:05:34.570","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 14:05:35.320","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 14:05:35.378","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean","Message":"Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath."}
+{"DateTime":"23-07-2026 14:05:36.292","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.TomcatWebServer","Message":"Tomcat started on port 8080 (http) with context path '/'"}
+{"DateTime":"23-07-2026 14:05:36.303","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 5.331 seconds (process running for 6.028)"}
+{"DateTime":"23-07-2026 14:06:29.550","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.GracefulShutdown","Message":"Commencing graceful shutdown. Waiting for active requests to complete"}
+{"DateTime":"23-07-2026 14:06:29.565","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.boot.tomcat.GracefulShutdown","Message":"Graceful shutdown complete"}
+{"DateTime":"23-07-2026 14:06:29.570","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","Message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}
+{"DateTime":"23-07-2026 14:06:32.880","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 27044 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 14:06:32.881","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 14:06:32.882","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 14:06:34.527","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 14:06:34.967","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 14:06:34.991","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 14:06:35.694","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 14:06:36.148","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 3.716 seconds (process running for 4.223)"}
+{"DateTime":"23-07-2026 14:07:02.099","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"org.springdoc.api.AbstractOpenApiResource","Message":"Init duration for springdoc-openapi is: 226 ms"}
+{"DateTime":"23-07-2026 14:07:43.937","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"ERROR","Logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]","Message":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException: 
+### Error querying database.  Cause: org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]
+### Cause: org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]] with root cause"}
+org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]
+	at org.apache.ibatis.binding.MapperMethod$ParamMap.get(MapperMethod.java:210)
+	at org.apache.ibatis.reflection.wrapper.MapWrapper.get(MapWrapper.java:46)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.executor.BaseExecutor.createCacheKey(BaseExecutor.java:225)
+	at org.apache.ibatis.executor.CachingExecutor.createCacheKey(CachingExecutor.java:149)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy129.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:169)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy130.getPaymentByRequestId(Unknown Source)
+	at com.fpts.fitint.service.Payment.PaymentService.createPayment(PaymentService.java:32)
+	at com.fpts.fitint.controller.PaymentController.createPayment(PaymentController.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+{"DateTime":"23-07-2026 14:07:58.852","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"ERROR","Logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]","Message":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException: 
+### Error querying database.  Cause: org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]
+### Cause: org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]] with root cause"}
+org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]
+	at org.apache.ibatis.binding.MapperMethod$ParamMap.get(MapperMethod.java:210)
+	at org.apache.ibatis.reflection.wrapper.MapWrapper.get(MapWrapper.java:46)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.executor.BaseExecutor.createCacheKey(BaseExecutor.java:225)
+	at org.apache.ibatis.executor.CachingExecutor.createCacheKey(CachingExecutor.java:149)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy129.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:169)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy130.getPaymentByRequestId(Unknown Source)
+	at com.fpts.fitint.service.Payment.PaymentService.createPayment(PaymentService.java:32)
+	at com.fpts.fitint.controller.PaymentController.createPayment(PaymentController.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+{"DateTime":"23-07-2026 14:08:06.148","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"ERROR","Logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]","Message":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException: 
+### Error querying database.  Cause: org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]
+### Cause: org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]] with root cause"}
+org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]
+	at org.apache.ibatis.binding.MapperMethod$ParamMap.get(MapperMethod.java:210)
+	at org.apache.ibatis.reflection.wrapper.MapWrapper.get(MapWrapper.java:46)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.executor.BaseExecutor.createCacheKey(BaseExecutor.java:225)
+	at org.apache.ibatis.executor.CachingExecutor.createCacheKey(CachingExecutor.java:149)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy129.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:169)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy130.getPaymentByRequestId(Unknown Source)
+	at com.fpts.fitint.service.Payment.PaymentService.createPayment(PaymentService.java:32)
+	at com.fpts.fitint.controller.PaymentController.createPayment(PaymentController.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+{"DateTime":"23-07-2026 14:08:11.190","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"ERROR","Logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]","Message":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException: 
+### Error querying database.  Cause: org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]
+### Cause: org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]] with root cause"}
+org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]
+	at org.apache.ibatis.binding.MapperMethod$ParamMap.get(MapperMethod.java:210)
+	at org.apache.ibatis.reflection.wrapper.MapWrapper.get(MapWrapper.java:46)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.executor.BaseExecutor.createCacheKey(BaseExecutor.java:225)
+	at org.apache.ibatis.executor.CachingExecutor.createCacheKey(CachingExecutor.java:149)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy129.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:169)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy130.getPaymentByRequestId(Unknown Source)
+	at com.fpts.fitint.service.Payment.PaymentService.createPayment(PaymentService.java:32)
+	at com.fpts.fitint.controller.PaymentController.createPayment(PaymentController.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+{"DateTime":"23-07-2026 14:08:51.554","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 4800 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 14:08:51.555","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 14:08:51.556","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 14:08:53.303","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 14:08:53.746","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 14:08:53.768","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 14:08:54.436","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 14:08:54.850","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 3.734 seconds (process running for 4.222)"}
+{"DateTime":"23-07-2026 14:09:16.458","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"ERROR","Logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]","Message":"Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException: 
+### Error querying database.  Cause: org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]
+### Cause: org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]] with root cause"}
+org.apache.ibatis.binding.BindingException: Parameter 'requestId' not found. Available parameters are [paymentId, param1]
+	at org.apache.ibatis.binding.MapperMethod$ParamMap.get(MapperMethod.java:210)
+	at org.apache.ibatis.reflection.wrapper.MapWrapper.get(MapWrapper.java:46)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.executor.BaseExecutor.createCacheKey(BaseExecutor.java:225)
+	at org.apache.ibatis.executor.CachingExecutor.createCacheKey(CachingExecutor.java:149)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy129.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:169)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy130.getPaymentByRequestId(Unknown Source)
+	at com.fpts.fitint.service.Payment.PaymentService.createPayment(PaymentService.java:34)
+	at com.fpts.fitint.controller.PaymentController.createPayment(PaymentController.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+{"DateTime":"23-07-2026 14:10:49.521","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 29672 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 14:10:49.527","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 14:10:49.527","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 14:10:51.484","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 14:10:51.915","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 14:10:51.935","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 14:10:52.632","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 14:10:53.093","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 4.018 seconds (process running for 4.519)"}
+{"DateTime":"23-07-2026 14:10:55.481","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentByRequestId","Message":"==>  Preparing: SELECT * FROM DWT.TDWT_PAYMENT WHERE AREQUESTID = ?"}
+{"DateTime":"23-07-2026 14:10:55.506","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentByRequestId","Message":"==> Parameters: eytuow-29487198(String)"}
+{"DateTime":"23-07-2026 14:10:55.702","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentByRequestId","Message":"<==      Total: 0"}
+{"DateTime":"23-07-2026 14:10:56.059","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.insertPayment","Message":"==>  Preparing: { call dwt.spdwt_payment_add( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) }"}
+{"DateTime":"23-07-2026 14:10:56.076","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.insertPayment","Message":"==> Parameters: NT20260723YD(String), 202(String), ascvnoi289(String), 058C101295(String), NGUYEN TIEN HONG MINH(String), 1000000(BigDecimal), 12210002387114(String), BIDHT(String), null, nt(String), 0(Integer), 1(Integer), 1(Integer), 1(Integer), 2026-07-23T08:21:53.412(LocalDateTime), 2026-07-23T14:10:56.058136800(LocalDateTime), minhnth(String), null, NGUYEN TIEN HONG MINH(String), 0(Integer), -1(Integer), -1(Integer), eytuow-29487198(String), -1(Integer), -1(Integer), -1(Integer), -1(Integer)"}
+{"DateTime":"23-07-2026 14:13:32.684","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 27676 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 14:13:32.685","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 14:13:32.686","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 14:13:34.386","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 14:13:34.792","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 14:13:34.811","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 14:13:35.435","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 14:13:35.847","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 3.564 seconds (process running for 4.009)"}
+{"DateTime":"23-07-2026 14:35:13.663","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 20184 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 14:35:13.668","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 14:35:13.669","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 14:35:15.346","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 14:35:15.768","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 14:35:15.786","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 14:35:16.434","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 14:35:16.844","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 3.641 seconds (process running for 4.283)"}
+{"DateTime":"23-07-2026 14:36:07.927","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==>  Preparing: SELECT * FROM DWT.TDWT_PAYMENT WHERE ACLIENTCODE = ? ORDER BY ACREATEDATE DESC"}
+{"DateTime":"23-07-2026 14:36:07.973","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==> Parameters: '' OR 1=1 '(String)"}
+{"DateTime":"23-07-2026 14:36:08.142","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"<==      Total: 0"}
+{"DateTime":"23-07-2026 14:36:20.025","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==>  Preparing: SELECT * FROM DWT.TDWT_PAYMENT WHERE ACLIENTCODE = ? ORDER BY ACREATEDATE DESC"}
+{"DateTime":"23-07-2026 14:36:20.026","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==> Parameters: ' OR 1=1 '(String)"}
+{"DateTime":"23-07-2026 14:36:20.088","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"<==      Total: 0"}
+{"DateTime":"23-07-2026 14:37:21.813","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==>  Preparing: SELECT * FROM DWT.TDWT_PAYMENT WHERE ACLIENTCODE = ? ORDER BY ACREATEDATE DESC"}
+{"DateTime":"23-07-2026 14:37:21.814","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==> Parameters: OR 1=1(String)"}
+{"DateTime":"23-07-2026 14:37:21.874","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"<==      Total: 0"}
+{"DateTime":"23-07-2026 15:06:01.509","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 9948 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 15:06:01.511","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 15:06:01.512","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 15:06:03.012","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.security.JwtAuthenticationFilter","Message":"Filter 'jwtAuthenticationFilter' configured for use"}
+{"DateTime":"23-07-2026 15:06:03.696","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 15:06:04.198","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 15:06:04.219","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 15:06:04.744","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext","Message":"Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController': Unsatisfied dependency expressed through field 'authenticationManager': No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}"}
+{"DateTime":"23-07-2026 15:06:04.782","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"ERROR","Logger":"org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter","Message":"
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.fpts.fitint.controller.AuthController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+"}
+{"DateTime":"23-07-2026 15:08:49.637","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 8512 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 15:08:49.639","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 15:08:49.640","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 15:08:51.143","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.security.JwtAuthenticationFilter","Message":"Filter 'jwtAuthenticationFilter' configured for use"}
+{"DateTime":"23-07-2026 15:08:51.812","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 15:08:52.292","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 15:08:52.314","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 15:08:52.872","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext","Message":"Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController': Unsatisfied dependency expressed through field 'authenticationManager': Error creating bean with name 'authenticationManager' defined in class path resource [com/fpts/fitint/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'authController': Requested bean is currently in creation: Is there an unresolvable circular reference or an asynchronous initialization dependency?"}
+{"DateTime":"23-07-2026 15:08:52.906","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"ERROR","Logger":"org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter","Message":"
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  authController (field org.springframework.security.authentication.AuthenticationManager com.fpts.fitint.controller.AuthController.authenticationManager)
+↑     ↓
+|  authenticationManager defined in class path resource [com/fpts/fitint/config/SecurityConfig.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+"}
+{"DateTime":"23-07-2026 15:12:38.856","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 25620 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 15:12:38.859","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 15:12:38.861","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 15:12:40.721","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.security.JwtAuthenticationFilter","Message":"Filter 'jwtAuthenticationFilter' configured for use"}
+{"DateTime":"23-07-2026 15:12:41.460","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 15:12:41.957","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 15:12:41.986","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 15:12:43.395","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 15:12:44.806","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 6.585 seconds (process running for 7.393)"}
+{"DateTime":"23-07-2026 15:13:14.047","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 26060 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 15:13:14.050","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 15:13:14.050","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 15:13:15.693","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.security.JwtAuthenticationFilter","Message":"Filter 'jwtAuthenticationFilter' configured for use"}
+{"DateTime":"23-07-2026 15:13:16.283","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 15:13:16.752","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 15:13:16.782","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 15:13:17.633","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 15:13:18.227","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 4.656 seconds (process running for 5.164)"}
+{"DateTime":"23-07-2026 15:13:39.517","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 41096 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 15:13:39.519","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 15:13:39.519","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 15:13:40.721","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.security.JwtAuthenticationFilter","Message":"Filter 'jwtAuthenticationFilter' configured for use"}
+{"DateTime":"23-07-2026 15:13:41.258","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 15:13:41.659","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 15:13:41.676","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 15:13:42.486","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 15:13:43.006","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 3.926 seconds (process running for 4.419)"}
+{"DateTime":"23-07-2026 15:15:28.447","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 2460 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 15:15:28.448","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 15:15:28.449","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 15:15:29.691","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.security.JwtAuthenticationFilter","Message":"Filter 'jwtAuthenticationFilter' configured for use"}
+{"DateTime":"23-07-2026 15:15:30.273","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 15:15:30.666","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 15:15:30.684","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 15:15:31.495","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 15:15:31.990","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 3.996 seconds (process running for 4.51)"}
+{"DateTime":"23-07-2026 15:17:18.874","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 25420 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 15:17:18.876","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 15:17:18.876","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 15:17:20.165","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.security.JwtAuthenticationFilter","Message":"Filter 'jwtAuthenticationFilter' configured for use"}
+{"DateTime":"23-07-2026 15:17:20.749","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 15:17:21.157","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 15:17:21.178","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 15:17:21.980","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 15:17:22.487","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 4.031 seconds (process running for 4.522)"}
+{"DateTime":"23-07-2026 15:18:14.756","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==>  Preparing: SELECT * FROM DWT.TDWT_PAYMENT WHERE ACLIENTCODE = ? ORDER BY ACREATEDATE DESC"}
+{"DateTime":"23-07-2026 15:18:14.856","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==> Parameters: 058C101295(String)"}
+{"DateTime":"23-07-2026 15:18:15.070","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"<==      Total: 100"}
+{"DateTime":"23-07-2026 15:18:54.460","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==>  Preparing: SELECT * FROM DWT.TDWT_PAYMENT WHERE ACLIENTCODE = ? ORDER BY ACREATEDATE DESC"}
+{"DateTime":"23-07-2026 15:18:54.461","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==> Parameters: 058C101295(String)"}
+{"DateTime":"23-07-2026 15:18:54.536","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"<==      Total: 100"}
+{"DateTime":"23-07-2026 15:19:01.838","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==>  Preparing: SELECT * FROM DWT.TDWT_PAYMENT WHERE ACLIENTCODE = ? ORDER BY ACREATEDATE DESC"}
+{"DateTime":"23-07-2026 15:19:01.838","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==> Parameters: 058C101295(String)"}
+{"DateTime":"23-07-2026 15:19:01.907","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"<==      Total: 100"}
+{"DateTime":"23-07-2026 15:28:01.936","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Starting Main using Java 26.0.1 with PID 29624 (E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt\app\target\classes started by minhnth in E:\OneDrive\006_Study\001_JAVA\source\dwt-demo\dwt)"}
+{"DateTime":"23-07-2026 15:28:01.938","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.Main","Message":"Running with Spring Boot v4.0.7, Spring v7.0.8"}
+{"DateTime":"23-07-2026 15:28:01.939","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"DateTime":"23-07-2026 15:28:03.513","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.security.JwtAuthenticationFilter","Message":"Filter 'jwtAuthenticationFilter' configured for use"}
+{"DateTime":"23-07-2026 15:28:04.209","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"com.zaxxer.hikari.util.DriverDataSource","Message":"Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation."}
+{"DateTime":"23-07-2026 15:28:04.686","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.deprecation","Message":"HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)"}
+{"DateTime":"23-07-2026 15:28:04.706","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.hibernate.orm.jdbc","Message":"HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')"}
+{"DateTime":"23-07-2026 15:28:05.942","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"WARN","Logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","Message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}
+{"DateTime":"23-07-2026 15:28:07.102","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"INFO","Logger":"com.fpts.fitint.Main","Message":"Started Main in 5.734 seconds (process running for 6.461)"}
+{"DateTime":"23-07-2026 15:29:45.727","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==>  Preparing: SELECT * FROM DWT.TDWT_PAYMENT WHERE ACLIENTCODE = ? ORDER BY ACREATEDATE DESC"}
+{"DateTime":"23-07-2026 15:29:45.762","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"==> Parameters: 058C101295(String)"}
+{"DateTime":"23-07-2026 15:29:46.169","Service":"CashTrans-Dwt-Demo","Host":"FIT-MinhNTH","IP":"10.26.2.102","Level":"DEBUG","Logger":"com.fpts.fitint.mapper.PaymentMapper.getPaymentsByClientCode","Message":"<==      Total: 100"}
